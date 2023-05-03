@@ -46,7 +46,7 @@ form.onsubmit = (e) => {
     }
     if  (eField.classList.contains("valid") && pField.classList.contains("valid")) {
         console.log("valid email");
-        location.href = "https://cklab-edges.ck-collab-engtest.com/webapp/#/?conference=drdemo&name=Dr.%20Demo&callType=video&role=host&pin=2023";
+        location.href = "https://pex-gcc.com/webapp/#/?conference=drdemo&name=Dr.%20Demo&callType=video&role=host&pin=2023";
     } else if (eField.classList.contains("error") && pField.classList.contains("error")) {
         console.log("invalid");
         window.location.href = form.getAttribute("action");
